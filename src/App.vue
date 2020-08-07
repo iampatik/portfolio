@@ -19,7 +19,10 @@ export default {
 </script>
 
 <style>
-html,
+html {
+  overflow-x: auto;
+  overflow-y: auto;
+}
 body {
   overflow: auto;
   height: 100%;

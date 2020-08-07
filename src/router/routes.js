@@ -9,6 +9,14 @@ export default {
             }
         },
         {
+            path: '/aboutme',
+            name: 'aboutme',
+            component: resolve => require(['@/components/AboutMe.vue'], resolve),
+            meta: {
+                tokenRequired: false
+            }
+        },
+        {
             path: '/resume',
             name: 'resume',
             component: resolve => require(['@/components/Resume.vue'], resolve),
