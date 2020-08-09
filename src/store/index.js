@@ -15,23 +15,34 @@ export default new Vuex.Store({
                 permanentAddress: "Brgy. Baybay, Carigara, Leyte",
             },
             educationalAttainment: {
-                school: "University Of San Carlos",
-                year: "2018 - 2020"
+                seniorHighSchool: {
+                    school: "Holy Cross College of Carigara",
+                    year: "2012 - 2018",
+                    course: "ICT"
+                },
+                college: {
+                    school: "University Of San Carlos",
+                    year: "2018 - 2020",
+                    course: "CCT"
+                }
+
             },
             contacts: {
                 email: "janpatrick.tancinco@student.passerellesnumeriques.org",
                 skype: "itsmepatweak.Blank",
                 mobile: "09122588715",
             },
-            Skills: {
+            skills: {
                 microsoftOffice: [
                     "Powerpoint",
                     "Excel",
                     "Word",
+                    "NodeJS",
+                    "MySQL"
                 ],
-                programming: 
+                programming:
                     [
-                        "Java", "C#", "Python", "JavaScript", "HTML", "CSS", "MongoDB", "NodeJS", "MySQL"
+                        "Java", "C#", "Python", "JavaScript", "HTML", "CSS", "MongoDB",
                     ]
             }
         },
@@ -76,7 +87,10 @@ export default new Vuex.Store({
     getters: {
         projects(state) {
             return state.projects;
-        }
+        },
+        profile(state) {
+            return state.profile;
+        },
     },
     actions: {
 

@@ -6,7 +6,7 @@
       <v-btn text large to="/home">Home</v-btn>
       <v-btn text large to="/aboutme">About Me</v-btn>
       <v-btn text large to="/resume">Resume</v-btn>
-      <v-btn text large to="/hobbies">Hobbies</v-btn>
+      <!-- <v-btn text large to="/hobbies">Hobbies</v-btn> -->
       <v-btn text large to="/projects">Projects</v-btn>
     </v-app-bar>
   </div>
